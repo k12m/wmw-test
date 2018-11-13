@@ -8,4 +8,27 @@
   text-decoration: none;
   user-select: none;
   appearance: none;
+  
+  background: $color-heading;
+  color: white;
+  font-weight: bold;
+  line-height: 4.2rem;
+  min-width: 12.5rem;
+  padding: 0 2.6rem;
+  
+  @include media-query($medium-up) {
+  	line-height: 5.5rem;
+	min-width: 17.5rem;
+	padding: 0 4.2rem;
+  }
+}
+
+.button--secondary {
+	background: white;
+	color: $color-heading;
+}
+
+.button__expand {
+	display: inline-block;
+	margin: 0 auto 3rem;
 }

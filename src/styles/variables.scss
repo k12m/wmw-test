@@ -1,7 +1,8 @@
 /**
  * Text colors.
  */
-$color-body-text: 'aktiv-grotesk', sans-serif;
+$color-body-text: #BBBBBB;
+$color-heading: #003366;
 
 /**
  * Background colors.
@@ -33,8 +34,8 @@ $color-success-bg: #000000;
 /**
  * Typography.
  */
-$font-heading: 'aktiv-grotesk', sans-serif;
-$font-body: var(--font-body);
+$font-heading: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-body: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $font-body-weight: var(--font-body-weight);
 $font-body-style: var(--font-body-style);
 $font-body-bold-weight: var(--font-body-bold-weight);
@@ -52,7 +53,7 @@ $grid-medium: 46.85em;
 $grid-large: 61.85em;
 $grid-widescreen: 87.5em;
 $grid-max-width: 73.75em;
-$grid-gutter: 30px;
+$grid-gutter: 36px;
 
 /**
  * Breakpoints.

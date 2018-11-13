@@ -7,6 +7,7 @@ body {
   font-weight: $font-body-weight;
   font-style: $font-body-style;
   font-size: 1.6rem;
+  color: $color-body-text;
 }
 
 h1,
@@ -16,6 +17,7 @@ h4,
 h5,
 h6 {
   font-family: $font-heading;
+  color: $color-heading;
 }
 
 body,
@@ -29,4 +31,26 @@ select {
 
 a:focus {
   color: inherit;
+}
+
+h2 {
+	font-size: 2.8rem;
+	line-height: 3.4rem;
+	margin-bottom: 0.8rem;
+	@include media-query($medium-up) {
+		font-size: 4rem;
+		line-height: 4.9rem;
+		margin-bottom: 1.9rem;
+	}
+}
+
+h4 {
+	font-size: 1.4rem;
+	line-height: 1.7rem;
+	margin: 0.5rem 0 0;
+	@include media-query($medium-up) {
+		font-size: 2.1rem;
+		line-height: 2.6rem;
+		margin: 1.6rem 0 0.6rem;
+	}
 }
